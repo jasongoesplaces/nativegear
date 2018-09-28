@@ -152,7 +152,7 @@ class NavBar extends Component {
       <div className="rui navbar">
         {this.props.visibility.hamburger && this.renderHamburgerButton()}
         {this.props.visibility.brand && this.renderBrand()}
-        <h2>test test test</h2>
+        <img url="https://nativegearfl.com/images/NATIVE2.png"/>
         {this.props.visibility.tags && this.renderTagNav()}
         {this.props.visibility.search && this.renderSearchButton()}
         {this.props.visibility.notifications && this.renderNotificationIcon()}
